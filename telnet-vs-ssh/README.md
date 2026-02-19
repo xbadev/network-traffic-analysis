@@ -1,4 +1,4 @@
-# Telnet vs SSH — Cleartext vs Encrypted Remote Access
+# Telnet vs SSH - Cleartext vs Encrypted Remote Access
 
 ## Objective
 
