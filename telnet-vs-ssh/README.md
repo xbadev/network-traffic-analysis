@@ -134,10 +134,3 @@ The only readable information is the SSH version strings and the key exchange al
 | **Use in Production** | Never | Standard for remote access |
 
 Telnet should never be used for remote access on any network. It still appears in legacy systems, IoT devices, and misconfigured environments — which is exactly why knowing how to detect it in a packet capture matters.
-
-## Capture Files
-
-The raw `.pcapng` files are available in the [captures/](captures/) folder for analysis in Wireshark:
-
-- [telnet-capture.pcapng](captures/telnet-capture.pcapng)
-- [ssh-capture.pcapng](captures/ssh-capture.pcapng)
