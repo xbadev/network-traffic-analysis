@@ -7,7 +7,8 @@ Hands-on network traffic analysis using Wireshark in a virtualized lab environme
 | # | Lab | Description |
 |---|-----|-------------|
 | 1 | [Telnet vs SSH](telnet-vs-ssh/) | Captured and compared cleartext Telnet traffic against encrypted SSH traffic. Demonstrated full credential exposure over Telnet using Wireshark TCP stream analysis. |
+| 2 | [FTP vs SFTP](ftp-vs-sftp/) | Captured and compared cleartext FTP traffic against encrypted SFTP. Demonstrated credential and file content exposure over FTP using Wireshark display filters and TCP stream analysis. |
 
 ## Up Next
 
-**FTP vs SFTP** — Capturing file transfer traffic to compare cleartext FTP credentials and file contents against encrypted SFTP.
+**HTTP vs HTTPS** — Capturing web traffic to compare cleartext HTTP requests and form data against encrypted HTTPS.
