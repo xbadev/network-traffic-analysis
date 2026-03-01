@@ -61,11 +61,6 @@ sudo systemctl status inetd       # inactive (dead), "condition unmet", status=1
 
 **Fix:** Removed the `#<off>#` prefix and restarted the service:
 
-```bash
-sudo sed -i 's/^## telnet/telnet/' /etc/inetd.conf
-sudo systemctl restart inetutils-inetd
-```
-
 ![Service active and running after fix](screenshots/activated-inetd-restarting-service-and-status-working-and-active.png)
 
 Port 23 now listening — confirmed with `sudo ss -tlnp | grep 23`.
