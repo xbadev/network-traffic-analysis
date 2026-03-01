@@ -57,7 +57,7 @@ sudo systemctl status inetd       # inactive (dead), "condition unmet", status=1
 
 **Root cause:** The Telnet entry in `/etc/inetd.conf` was disabled with a `#<off>#` prefix:
 
-![inetd.conf showing Telnet commented out with #off#](screenshots/inetd-off-comment-in-inetd_conf.png)
+![inetd.conf showing Telnet commented out with #off#](screenshots/inetd-off-comment-in-inetd.conf.png)
 
 **Fix:** Removed the `#<off>#` prefix and restarted the service:
 
