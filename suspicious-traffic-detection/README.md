@@ -43,7 +43,7 @@ The unfiltered capture shows a massive flood of SYN packets from the same source
 
 Filtering for SYN-ACK responses (`tcp.flags.syn == 1 && tcp.flags.ack == 1`) reveals which ports actually responded as open. Only ports 80 and 22 sent SYN-ACKs back — matching the Nmap results:
 
-![SYN-ACK filter — only ports 22 and 80 responded, confirming they are open](screenshots/filter-for-syn-and-ack-shows-open-ports.png)
+![SYN-ACK filter — only ports 22 and 80 responded, confirming they are open](screenshots/filter-for-syn-and-ack-shows_open-ports.png)
 
 ---
 
